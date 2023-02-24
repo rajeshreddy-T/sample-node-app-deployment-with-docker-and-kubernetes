@@ -22,7 +22,7 @@ RUN go install -v ./...
 EXPOSE 8080
 
 # Run the executable
-CMD ["app"]
+# CMD ["app"]
 
 # Build the image
 

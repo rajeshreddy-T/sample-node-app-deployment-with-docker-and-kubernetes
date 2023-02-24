@@ -1,6 +1,4 @@
 # kubernetes deployment file for sampleNodeApp
-
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:

@@ -14,7 +14,7 @@ const k8sApi = kubeconfig.makeApiClient(k8s.BatchV1Api);
 // const k8sPool =  k8s.KubeConfigPool(kubeconfig);
 const k8sPool = new k8s.KubeConfigPool(kubeconfig);
 k8sPool.init();
-k8sApi.
+
 
 // Parse JSON request bodies
 app.use(bodyParser.json());
@@ -93,6 +93,6 @@ app.listen(3000, () => {
   console.log('Web server listening on port 3000');
 });
 
-docker tag local-image:tagname new-repo:tagname
-docker push new-repo:tagname
-8341265379@kubernetes
+// docker tag local-image:tagname new-repo:tagname
+// docker push new-repo:tagname
+// 8341265379@kubernetes
